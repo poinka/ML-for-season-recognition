@@ -1,7 +1,7 @@
 # ML for Season Recognition
 
 ## Overview
-This project implements three machine learning models:** Multi-Layer Perceptron (MLP)**, **1D Convolutional Neural Network (1D-CNN)**, and **2D Convolutional Neural Network (2D-CNN)** to classify seasons (winter, spring, summer, autumn) using 24-hour time-series data of power load, wind generation, and solar generation in Denmark. The dataset, sourced from Open Power System Data (opsd_raw.csv), spans hourly measurements from 2015 to 2020. The goal is to predict seasons based on daily energy profiles, leveraging temporal and spatial patterns in energy consumption and generation.
+This project implements three machine learning models: **Multi-Layer Perceptron (MLP)** , **1D Convolutional Neural Network (1D-CNN)**, and **2D Convolutional Neural Network (2D-CNN)** to classify seasons (winter, spring, summer, autumn) using 24-hour time-series data of power load, wind generation, and solar generation in Denmark. The dataset, sourced from Open Power System Data (opsd_raw.csv), spans hourly measurements from 2015 to 2020. The goal is to predict seasons based on daily energy profiles, leveraging temporal and spatial patterns in energy consumption and generation.
 
 ## Dataset
 The dataset contains 50,400 hourly records with three key features:
